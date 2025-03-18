@@ -1,0 +1,32 @@
+{
+  "name": "@smithery-ai/puppeteer",
+  "version": "1.0.0",
+  "description": "Smithery MCP for Puppeteer integration",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "smithery",
+    "mcp",
+    "puppeteer",
+    "browser",
+    "automation"
+  ],
+  "author": "Smithery AI",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^22.3.0",
+    "@smithery/types": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0",
+    "ts-jest": "^29.0.0"
+  }
+}
